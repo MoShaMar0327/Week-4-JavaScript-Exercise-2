@@ -1,6 +1,6 @@
 // TODO: Create a function called sum. The function will take in a parameter and calculate all the numbers from 0 -> the parameter. You must check if the parameter is an integer first before any calculation is made. If the parameter is not a number, return a message stating, “The value passed is not a number”. You are NOT allowed to use methods(!Number.isInteger(n)) or regular expressions(.match(/cat/g)). Make sure to test your code effectively. 
 function sum(int){
-  if (typeof int !== "number" || int !== int || int % 1 !== 0){
+  if (typeof int !== "number" || int % 1 !== 0){
     return "The value passed is not a number"
   }
 
