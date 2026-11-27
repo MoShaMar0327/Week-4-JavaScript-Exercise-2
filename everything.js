@@ -73,7 +73,6 @@ for (const num of array){
 
 newArray.sort((a, b) => a - b)
 
-console.log(array)
 console.log(newArray)
 
 // TODO: Create an object called ‘me’ with properties of first name, last name, age, favourite colour, dream car
