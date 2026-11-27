@@ -18,6 +18,7 @@ function sum(int){
   return totalSum;
 } 
 console.log(sum(13))
+console.log(sum("13"))
 
 // TODO: Create a function called ‘factorial’ that takes in a number as a parameter. The function will print the factorial of the entered number, e.g. factorial(4) ->4*3*2*1 //output 24
 function factorial(num){
@@ -30,6 +31,8 @@ function factorial(num){
 }
 
 console.log(factorial(7))
+console.log(factorial(13))
+console.log(factorial(-1))
 
 // TODO: Create a function called funkyMath . If this function is called with 2 arguments the function will subtract the first from the second. If the functionis called with 3 arguments it will add all 3 numbers together. If the function is called with 4 arguments it will add together argument 1 and 2 , 3 and 4 separately. Then divide them accordingly, eg funkyMath(8,2,3,5) -> 8+2 divided by 3+5 -> 10/8 //output 1,25
 function funkyMath(...args){
